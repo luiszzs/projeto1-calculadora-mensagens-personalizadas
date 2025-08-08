@@ -7,7 +7,7 @@ let salario = 200
 let bonus = 100
 //calculos
 let salabonus = salario + bonus
-let anonascimento = anoatual - idade
+const anonascimento = anoatual - idade
 let totalano = salabonus * 12
 let dobrototalano = totalano * 2
 alert(`
