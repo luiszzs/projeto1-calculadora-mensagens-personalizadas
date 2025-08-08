@@ -1,4 +1,4 @@
-const nome = "Luis Guilherme"
+let nome = "Luis Guilherme"
 let idade = 15
 let city = "General Sampaio"
 let Profissao = "Estudante"
