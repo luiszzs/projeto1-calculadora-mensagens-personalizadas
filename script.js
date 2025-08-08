@@ -21,5 +21,4 @@ alert(`
      Total ano: U$${ salabonus * 12}
      Total anual: U$${salabonus * 12 * 2}    
     =====================================
-    
     `)
