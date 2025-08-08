@@ -20,8 +20,8 @@ alert(`
     
      Sálario base: U$${salario}
      Bônus: U$${bonus}
-     Total Mensal: U$$(salabonus)  
-     Total ano: U$$(totalano)
-     Total anual: U$$(dobrototalano)  
+     Total Mensal: U$${salabonus} 
+     Total ano: U$${totalano}
+     Total anual: U$${dobrototalano}
     =====================================
     `)
