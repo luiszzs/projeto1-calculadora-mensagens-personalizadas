@@ -5,20 +5,23 @@ let Profissao = "Estudante"
 let anoatual = 2025
 let salario = 200
 let bonus = 100
+//calculos
 let salabonus = (salario) + (bonus)
-let anoto
+let anonascimento = (anoatual) - (idade)
+let totalano = (salabonus) * 12
+let dobrototalano = (totalano) * 2
 alert(`
     =========Relatório do usuário=========
     Nome: ${nome}
      Idade: ${idade}
-     Ano de nascimento: ${anoatual - idade}
+     Ano de nascimento: ${anonascimento}
      Cidade: ${city}
      Profissão: ${Profissao}    
     
      Sálario base: U$${salario}
      Bônus: U$${bonus}
-     Total Mensal: U$${salario + bonus}    
-     Total ano: U$${ salabonus * 12}
-     Total anual: U$${salabonus * 12 * 2}    
+     Total Mensal: U$$(salabonus)  
+     Total ano: U$$(totalano)
+     Total anual: U$$(dobrototalano)  
     =====================================
     `)
