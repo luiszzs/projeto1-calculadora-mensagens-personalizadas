@@ -23,5 +23,6 @@ alert(`
      Total Mensal: U$${salabonus} 
      Total ano: U$${totalano}
      Total anual: U$${dobrototalano}
-    =====================================
+    ===============================
+
     `)
